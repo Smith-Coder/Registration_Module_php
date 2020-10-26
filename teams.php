@@ -41,10 +41,10 @@
         </div>
     </div>
 <?php
-$host = "localhost";
-$user = "id15024307_csgor";
-$pass = "Database_123";
-$dbname = "id15024307_csgo";
+$host = "localhost:3306";
+$user = "root";
+$pass = "";
+$dbname = "csgo";
 $conn = mysqli_connect($host, $user, $pass, $dbname);
 global $name1;
 global $email1;
